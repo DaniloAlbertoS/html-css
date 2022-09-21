@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasses</title>
+    <style>
+   div{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+     }
+     p{
+        display: none;
+        font-size: 2em;
+        color: blue;
+        
+     }
+     div:hover{
+        color: blue;
+        background-color: rgba(0, 0, 255, 0.418);
+      
+     }
+     div:hover> p{
+        display: block;
+        
+       
+     }
+
+    </style>
+</head>
+<body>
+    <div><p>ola este </p></div>
+    <div><p>e  o segredo</p></div>
+    <div><p>da tag hover</p></div>
+</body>
+</html>
